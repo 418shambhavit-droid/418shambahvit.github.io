@@ -5,7 +5,6 @@ const icon = themeToggle.querySelector('i');
 themeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-theme');
     
-    // Toggle the icon
     if (body.classList.contains('dark-theme')) {
         icon.classList.remove('fa-moon');
         icon.classList.add('fa-sun');
